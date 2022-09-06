@@ -4,24 +4,30 @@
 }
 
 body {
-    background-color: hsl(217, 19%, 24%);
+    background-color: hsl(218, 23%, 16%);
 }
 
 .box {
-    background: hsl(217, 19%, 38%);
+    
+    background: hsl(217, 19%, 24%);
     font-size: 30;
-    padding: 35px;
-    margin: 125px;
+    padding: 30px;
+    margin: 100px;
     text-align: center;
     border-radius: 25px;
     height: 150px;
     
 
 }
+#divider{
+    position: relative;
+    Padding: 100px 10px 25px 
+}
 
 .button {
     position: relative;
-    padding: 150px 70px 35px 55px;
+    Padding: 35px 70px 35px 69px ;
+    border-radius: 50%
 }
 button:hover{
     background-color: hsl(150, 100%, 66%);
